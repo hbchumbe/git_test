@@ -28,4 +28,42 @@ $ git checkout -b [name_of_your_new_branch]
 Push the branch on github :
 
 $ git push origin [name_of_your_new_branch]
+---------------------------------------------
 
+-----------------------------------------------
+Add a file using the command line
+Open a terminal/shell, and change into the folder of your GitLab project. This usually means running the following command until you get to the desired destination:
+
+cd <destination folder>
+
+Create a new branch to add your file into. Submitting changes directly to the default branch should be avoided unless your project is very small and you’re the only person working on it.
+
+You can also switch to an existing branch if you have one already.
+
+Using your standard tool for copying files (for example, Finder in macOS, or File Explorer on Windows), put the file into a directory within the GitLab project.
+
+Check if your file is actually present in the directory (if you’re on Windows, use dir instead):
+
+ls
+
+You should see the name of the file in the list shown.
+
+Check the status:
+
+git status
+
+Your file’s name should appear in red, so git took notice of it! Now add it to the repository:
+
+git add <name of file>
+
+Check the status again, your file’s name should have turned green:
+
+git status
+
+Commit (save) your file to the repository:
+
+git commit -m "DESCRIBE COMMIT IN A FEW WORDS"
+
+Now you can push (send) your changes (in the branch <branch-name>) to GitLab (the Git remote named ‘origin’):
+
+git push origin <branch-name>
