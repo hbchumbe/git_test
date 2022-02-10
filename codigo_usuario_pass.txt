@@ -1,0 +1,8 @@
+usuario :
+    git
+password:
+    2016maru
+paraphrase:
+codigo para iniciar un servidor git
+ruta  :
+    (/home/haroru/.ssh/id_rsa):
