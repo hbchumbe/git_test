@@ -13,6 +13,7 @@ Prepara el archivo para confirmarlo para tu repositorio local.
 $ git add .
 $ git commit -m "Add existing file"
 $ git push -u origin main
+<<<<<<< HEAD
 
 ##########################
 git remote add origin git@github.com:hbchumbe/git_test.git
@@ -32,6 +33,14 @@ $ git push origin [name_of_your_new_branch]
 
 -----------------------------------------------
 Add a file using the command line
+=======
+---------
+final commit
+##################33
+#################3
+####################
+dd a file using the command line
+>>>>>>> hotfix
 Open a terminal/shell, and change into the folder of your GitLab project. This usually means running the following command until you get to the desired destination:
 
 cd <destination folder>
@@ -67,6 +76,7 @@ git commit -m "DESCRIBE COMMIT IN A FEW WORDS"
 Now you can push (send) your changes (in the branch <branch-name>) to GitLab (the Git remote named ‘origin’):
 
 git push origin <branch-name>
+<<<<<<< HEAD
 
 2
 2
@@ -76,3 +86,7 @@ git push origin <branch-name>
 2
 3
 1
+=======
+######################33
+=================================
+>>>>>>> hotfix
